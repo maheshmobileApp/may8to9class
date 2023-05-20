@@ -1,0 +1,25 @@
+Map: Map is an object that store data in the form of a key-value pair.
+
+The map can be declared by using curly braces {}
+Each key-valu pair is seprated by ,
+
+//final
+//const
+
+var user = {"name":"flutter", "age":12,"salary":1241242.004,"phone":"34525234" }
+
+//retrive the value from user object
+
+print(user["salary"])
+
+
+
+
+json/xml 
+
+ <user>
+   <name> flutter </name>
+   <age> flutter </age>
+   <salary> flutter </salary>
+   <phone> flutter </phone>
+ </user>

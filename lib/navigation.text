@@ -1,0 +1,22 @@
+
+Source to destion
+
+/*
+ 
+ Splash screen
+ login screen
+ sign up
+ home
+
+ routes
+ intialRoutes
+
+
+Source -> firstscreen
+destination -> secondscreen
+
+Step 1: create first and second screen
+step 2: create routes in main dart file. 
+step 3: create one button in first screen and give the action for to naviage  scond screen
+step 4:  create one button in second screen and give the action for go back to previous screen
+*/

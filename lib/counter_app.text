@@ -1,0 +1,13 @@
+
+Counter App:
+
+int _counter = 0;
+
++  -> in this action increase the counter value
+value disply: 0
+-  -> decrease the counter value
+
+Two types of widgets : 1. statefull widget 2. stateless widget
+
+in statefull widget  build method called when state is updated. mutable widget
+in sateless widget build method called only one time. immutable widget

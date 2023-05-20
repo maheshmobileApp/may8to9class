@@ -1,0 +1,41 @@
+
+11-5-23
+
+1. Read about the container Properties and create one container and send me screenshot.
+2. Create Flutter App and read about all folders inside the project.
+3. Read about Text widget and apply the fonts
+
+12-5-23
+
+4. Read about Column and apply the main and cross axis property. send me screenshot
+ in group.
+
+
+ 14-5-2023
+
+ 5.Create login screen with fout textfields
+ 6. Work on visiblity on/off for password
+ 7. Create button and give the decoration
+ 8. Create one counter app (+ ,- value)
+
+18-5-2023
+ 8. Create one counter app (+ ,- value)
+ 9. Navigation (take 5 button in first screen and navigate to differnt 5 screens)
+ 10. 1->2>3->4->1
+ 11. 1->2->3->4->2
+
+/*
+tirumala
+ashwin
+vasmsi
+mastan
+karthik
+
+
+
+
+Container: ashwin, tirumala,mastan,vamsi
+TextFormField: ashwin, tirumala,mastan,vamsi
+Text:ashwin, tirumala,mastan,vamsi
+Button: ashwin, tirumala,mastan,vamsi,chandu,
+*/

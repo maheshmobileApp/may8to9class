@@ -1,0 +1,26 @@
+
+A container widget is same as <div> tag in html.
+if this widget does not contain any child widget, it will fill the whole area of the screen.
+Otherwise it will wrap the child widget according to the specifi height and width.
+
+Cotiner Properties:
+
+Child: This property is used to store the child widget. 
+color: This property is used to set the background color of the text.
+height & width : this property is used to set the container's height and width.
+margin: This property is used to surround the empty space around container.
+(EdgeInsets.all(30) -> left , right, top, bottom)
+(EdgeInsets.only() ->left , right, top, bottom)
+EdgeInsets.only(left: 30,right: 30,top: 25,bottom: 25),
+EdgeInsets.symmetric() horizontal,vertical
+
+Padding: This property is used to set the distance between the border of the container and its child widget.
+Alinment: This property is used to set the postion of the child within the container.
+
+decoration: 
+
+
+
+TEXT:
+
+A Text widget to display a string of text.
