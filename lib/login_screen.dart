@@ -81,7 +81,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   fontSize: 15, fontWeight: FontWeight.w800, color: Colors.red),
               obscureText: _isObscureText,
               validator: (value) {},
-              decoration: InputDecoration(
+              decoration: InputDecoration(  
                   // prefixText: "+91",
                   //prefixStyle: ,
                   suffixIcon: GestureDetector(

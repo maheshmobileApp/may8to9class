@@ -1,6 +1,7 @@
 import 'package:class8to9/counterApp.dart';
 import 'package:class8to9/firstscreen.dart';
 import 'package:class8to9/secondscreen.dart';
+import 'package:class8to9/signup_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'login_screen.dart';
@@ -19,11 +20,12 @@ stateless widgets
 
 void main() {
   runApp(MaterialApp(
-    initialRoute: "/first",
+    initialRoute: "/signup",
     routes: {
       "/first": (context) => FirstScreen(),
       "/second": (context) => SecondScreen(),
-      "/login": (context) => LoginScreen()
+      "/login": (context) => LoginScreen(),
+      "/signup": (context) => SignUpScreen()
     },
     // "/"
     // home: CounterApp()

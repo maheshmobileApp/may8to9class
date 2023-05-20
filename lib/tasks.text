@@ -24,6 +24,15 @@
  10. 1->2>3->4->1
  11. 1->2->3->4->2
 
+ 19-5-2023
+
+ 12. Create sign up form with email,phone, password and user name
+ 13. user name validation : it should be between 3 to 30 letters
+     email: email validation
+     password: 6 letters, 1 upper case, 1lower case, 1 special character
+     phone number: 10 digits
+
+
 /*
 tirumala
 ashwin
