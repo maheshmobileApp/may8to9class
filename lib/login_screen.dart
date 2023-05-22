@@ -159,6 +159,10 @@ i % 2 ? print("even")
  :print("odd")
  ;
 
+
+
+
+
 if(i % 2){
 print("even")
 }else{
