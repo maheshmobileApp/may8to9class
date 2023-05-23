@@ -1,0 +1,39 @@
+
+int a = 10;
+int b = 20;
+
+int z =  a + b;
+
+Function: function is a set of statements to perfom a specific task. 
+
+returnType functionName(typeOfparam paramName,......) {
+
+/*body of the function */
+
+    return retrunValue;
+}
+
+functionName: defines the name of the function
+retrun_type: defines the datatype in which output is goint to crossAxisAlignment
+retrun_value defines the value to be returned from the function
+
+//No retrun type and no parameters
+
+void printTheValue(){
+
+
+}
+
+printTheValue();
+//void not return anything.
+
+
+// return type with  parameters
+int addTheTwoValues(int a, int b) {
+   
+   int z = a  + b;
+
+    retrun z;
+}
+addTheTwoValues(20,40);
+

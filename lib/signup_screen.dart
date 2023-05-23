@@ -48,9 +48,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   if (value!.isEmpty) {
                     return "Please Enter email";
                   } else {
-                    final bool emailValid = RegExp(
-                            r"^[a-zA-Z0-9.a-zA-Z0-9.!#$%&'*+-/=?^_`{|}~]+@[a-zA-Z0-9]+\.[a-zA-Z]+")
-                        .hasMatch(value);
+                    final bool emailValid = isValidEmail(value);
                     return emailValid ? null : "Please enter valid email";
                   }
                 },
@@ -113,5 +111,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
         ),
       ),
     );
+  }
+  //
+  bool isValidEmail(String value){
+    return  RegExp(r"^[a-zA-Z0-9.a-zA-Z0-9.!#$%&'*+-/=?^_`{|}~]+@[a-zA-Z0-9]+\.[a-zA-Z]+")
+                        .hasMatch(value);
   }
 }
