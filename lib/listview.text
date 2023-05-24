@@ -1,0 +1,10 @@
+
+ListView:
+
+Listview is a scrollable list of widgets. It displays its children one after another in the scroll direction(vertical,horizontal). 
+
+Types of ListView:
+
+1.ListView
+2.ListView.builder
+3.Listview.separated

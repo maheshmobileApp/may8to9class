@@ -31,7 +31,7 @@
      email: email validation
      password: 6 letters, 1 upper case, 1lower case, 1 special character
      phone number: 10 digits
-
+14. Display the States in listview
 
 /*
 tirumala
