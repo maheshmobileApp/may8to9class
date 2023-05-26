@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
+import 'dart:math' as math;
 
 class ListViewDemo extends StatefulWidget {
   const ListViewDemo({super.key});
@@ -30,7 +31,63 @@ class _ListViewDemoState extends State<ListViewDemo> {
         backgroundColor: Colors.yellow,
       ),
       body: Container(
-          child: ListView(
+          child: ListView.separated(
+        itemCount: names.length,
+        itemBuilder: (context, index) {
+          return Card(
+            child: ListTile(
+              title: Column(
+                children: [Text(names[index])],
+              ),
+              leading: Icon(Icons.no_accounts),
+              trailing: Icon(Icons.notification_add),
+              onTap: () {
+                print("selected item is ${names[index]}");
+                showDialog(
+                  context: context,
+                  builder: (context) {
+                    return AlertDialog(
+                      title: Text("Slected ITEM"),
+                      content: Text(names[index]),
+                      actions: [
+                        TextButton(
+                            onPressed: () {
+                              Navigator.pop(context);
+                            },
+                            child: Text("OK")),
+                        TextButton(onPressed: () {   Navigator.pop(context);}, child: Text("Cancel"))
+                      ],
+                    );
+                  },
+                );
+              },
+            ),
+          );
+        },
+        separatorBuilder: (BuildContext context, int index) {
+          return Divider(
+            height: 10,
+            color: Colors.orange,
+          );
+        },
+      )),
+    );
+  }
+}
+
+//*********************************** ListViie  */
+/*
+
+Container(
+            color: Color((math.Random().nextDouble() * 0xFFFFFF).toInt())
+                .withOpacity(1.0),
+            margin: EdgeInsets.all(10),
+            height: 200,
+            alignment: Alignment.center,
+            child: Text(names[index]),
+          );
+
+ListView(
         children: List.generate(
             names.length,
             (index) => Container(
@@ -39,11 +96,8 @@ class _ListViewDemoState extends State<ListViewDemo> {
                   alignment: Alignment.center,
                   child: Text(names[index]),
                 )),
-      )),
-    );
-  }
-}
-
+      )
+ */
 /*
    Container(
             margin: EdgeInsets.all(10),
