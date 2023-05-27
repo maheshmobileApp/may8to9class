@@ -1,0 +1,46 @@
+
+//For declarig the constant value we are using final and const keywords
+
+1. final
+2. const 
+
+var a = 20;
+
+a = 30;
+
+final b = 20;
+
+b = 30;
+
+final keyword is used to hardcode the values of the variable and it cannot be change in future.
+//with out datatype
+
+final variable_name;
+
+//with datatype
+
+final datatype variable_name;
+
+final int x = 30;
+final x = 30;
+
+if we try to reassign the same variable then it will get error
+
+x= 40;
+
+
+Const: The const keyword is used to make variable immutable. 
+ we can make the variable complite time.
+
+const z = 40;
+
+
+differnt between const and final is . const compite-time const. final keyword is run-time constant
+
+
+
+
+final date = Date();
+
+
+

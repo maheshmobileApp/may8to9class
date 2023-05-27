@@ -1,0 +1,52 @@
+Class: class is blueprint of the object.
+
+
+Class ClassName extends superClass{
+ final Strig name;
+ 
+
+
+}
+
+Class Person {
+ 
+ String _firstName;
+ Strig _lastName;
+ int age;
+
+
+ String getFullName(){
+
+    retrun this.firstName + this.lastName;
+ }
+
+ Person(){
+    //intial the Properties
+ }
+
+Person().dataWithValue(){
+
+}
+  
+}
+
+final person1 = new  Person();
+
+person1.firstName = "Mastan";
+person1.lastName = "fltter";
+person1.age = 23;
+
+person1.getFullName();
+
+
+final person2 = Person.dataWithValue();
+
+
+Constructor is an instance method that invoked when an object is created from class.
+The constructor functions has the same name of the class.
+
+
+//getter and setter 
+
+public
+private
