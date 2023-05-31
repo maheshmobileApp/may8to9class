@@ -1,0 +1,14 @@
+
+GOAL: Load the json data into ListView 
+
+Step 1: Load the json file into project directory 
+ step   A : Create aseets folder in project directory, if already created ignore this step
+ step B: Drag and drop the json file into assets folder.
+ step  C : configure the folder files in pubspec.yaml and run the flutter pub get in terminal 
+
+Step 2: Load the json file from root bundle 
+step 3: Convert the json data into model class (https://javiercbk.github.io/json_to_dart/ )
+step 4: After conver copy the code and past into separate dart file.
+Step 5: Create ListView As per our requirement
+
+Spte 4

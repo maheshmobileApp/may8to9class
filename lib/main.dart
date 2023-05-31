@@ -1,6 +1,7 @@
 import 'package:class8to9/counterApp.dart';
 import 'package:class8to9/firstscreen.dart';
 import 'package:class8to9/listview.dart';
+import 'package:class8to9/load_json_to_ListView.dart';
 import 'package:class8to9/secondscreen.dart';
 import 'package:class8to9/signup_screen.dart';
 import 'package:flutter/material.dart';
@@ -21,13 +22,14 @@ stateless widgets
 
 void main() {
   runApp(MaterialApp(
-    initialRoute: "/listViewDemo",
+    initialRoute: "/jsonToListView",
     routes: {
       "/first": (context) => FirstScreen(),
       "/second": (context) => SecondScreen(),
       "/login": (context) => LoginScreen(),
       "/signup": (context) => SignUpScreen(),
-      "/listViewDemo":(context) => ListViewDemo()
+      "/listViewDemo": (context) => ListViewDemo(),
+      "/jsonToListView": (context) => LoadJsonToListView()
     },
     // "/"
     // home: CounterApp()

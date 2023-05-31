@@ -6,7 +6,15 @@ class Students {
   String? className;
   String? address;
   String? gender;
-  String? _fulllName; //Private properties
+  String? _fulllName;
+  String? _salaray;
+  get fulllName => this._fulllName;
+
+ set fulllName( value) => this._fulllName = value;
+
+  get salaray => this._salaray;
+
+ set salaray( value) => this._salaray = value; //Private properties
 
   void displayTheStudentDetails() {
     print("sudent Deails is  ${this.name}");
@@ -15,6 +23,7 @@ class Students {
   String get fName {
     return _fulllName!;
   }
+  // String get fName => _fulllName;
 
   set setfName(String value) {
     _fulllName = value;

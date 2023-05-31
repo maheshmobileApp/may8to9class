@@ -1,0 +1,27 @@
+
+Inheritance in dart is defined as the process in which one class derive the properties and methods of another class.
+
+class Laptop {
+
+    Laptop(){
+        print("Laptop);
+    }
+
+}
+
+
+class MacBook extends Laptop {
+
+MacBook(){
+    print("MacBook ");
+}
+}
+
+void main(){
+
+    //className object = new className();
+
+    MacBook obj = new MacBook();
+    
+
+}

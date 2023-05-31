@@ -1,0 +1,105 @@
+
+{
+"data" :[
+    {
+        "AdmissionNo": "HVS2168",
+        "Studentame": "GREESHMANTH AKULA",
+        "Mobilenumber": 9440965817,
+        "Classname": "XIIold",
+        "Section": "S2"
+    },
+    {
+        "AdmissionNo": "HVS3094",
+        "Studentame": "THANMAI HANUMANTHU",
+        "Mobilenumber": 8885564012,
+        "Classname": "XI",
+        "Section": "A"
+    },
+    
+    {
+        "AdmissionNo": "HVS2982",
+        "Studentame": "GOURAV RAJ LABISHEETY",
+        "Mobilenumber": 9246912311,
+        "Classname": "VIII",
+        "Section": "A"
+    },
+    {
+        "AdmissionNo": "HVS1701",
+        "Studentame": "SAI SAKETH SRIRAMANENI",
+        "Mobilenumber": 9949961882,
+        "Classname": "Xold",
+        "Section": "D"
+    },
+    {
+        "AdmissionNo": "HVS3073",
+        "Studentame": "SAIKSHA SURANAGARAJU",
+        "Mobilenumber": 9972849729,
+        "Classname": "XI",
+        "Section": "A"
+    },
+    {
+        "AdmissionNo": "HVS2802",
+        "Studentame": "VARSHITH D",
+        "Mobilenumber": 9704806608,
+        "Classname": "VIII",
+        "Section": "C"
+    },
+    {
+        "AdmissionNo": "HVS2832",
+        "Studentame": "VENKATA SIDDARTHA REDDY KOLLAREDDY",
+        "Mobilenumber": 9866039327,
+        "Classname": "VIII",
+        "Section": "C"
+    },
+    {
+        "AdmissionNo": "HVS2950",
+        "Studentame": "RAJVARDHAN SASANAPURI",
+        "Mobilenumber": 7035870368,
+        "Classname": "XI",
+        "Section": "A"
+    },
+    {
+        "AdmissionNo": "HVS2322",
+        "Studentame": "YASHWANTH CHOWDARY UPPALAPATI",
+        "Mobilenumber": 9848803355,
+        "Classname": "X",
+        "Section": "B"
+    },
+    {
+        "AdmissionNo": "HVS2917",
+        "Studentame": "NAGASRI SATYA NISHANTH BIKKINA",
+        "Mobilenumber": 9966649689,
+        "Classname": "IX",
+        "Section": "A"
+    },
+    {
+        "AdmissionNo": "HVS2103",
+        "Studentame": "VIANNEY LAKRA",
+        "Mobilenumber": 9406124509,
+        "Classname": "XIIold",
+        "Section": "SB"
+    },
+    {
+        "AdmissionNo": "HVS2486",
+        "Studentame": "ISHWARYA KADI",
+        "Mobilenumber": 9502428345,
+        "Classname": "VIII",
+        "Section": "A"
+    },
+    {
+        "AdmissionNo": "HVS2960",
+        "Studentame": "VENKATA VIGNESH PATHI",
+        "Mobilenumber": 9701735147,
+        "Classname": "XI",
+        "Section": "A"
+    },
+    {
+        "AdmissionNo": "HVS678",
+        "Studentame": "MOKSHITH KRISHNA GODAVARTHI",
+        "Mobilenumber": 9951511333,
+        "Classname": "XIIold",
+        "Section": "S2"
+    }]
+
+}
+   
