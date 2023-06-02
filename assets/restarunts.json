@@ -1,0 +1,301 @@
+{
+    "status": "200",
+    "data": {
+        "restautantcategories": [
+            {
+                "categoryName": "Grocery",
+                "url": "https://tse3.mm.bing.net/th?id=OIP.IseyU-JoKGcyPL1eOHNZ_QHaEd&pid=Api&P=0"
+            },
+            {
+                "categoryName": "Restaurant",
+                "url": "https://tse1.mm.bing.net/th?id=OIP.iydKkwiqSiKvtTLuhZvwcQHaGL&pid=Api&P=0"
+            },
+            {
+                "categoryName": "Cafe",
+                "url": "https://tse3.mm.bing.net/th?id=OIP.cxmD4UnKcOTPewSlsX1p5gHaEo&pid=Api&P=0"
+            },
+            {
+                "categoryName": "Tiffin",
+                "url": "http://2.bp.blogspot.com/_daoAFMspmnA/TJeytZFrxuI/AAAAAAAAArA/5YUDSW5Q1hI/s1600/mini+tiffin.JPG"
+            },
+            {
+                "categoryName": "Sweets",
+                "url": "https://tse3.mm.bing.net/th?id=OIP.H0GLI3gi7iDty0xEM9ixQwHaHa&pid=Api&P=0"
+            }
+        ],
+        "restaurentList": [
+            {
+                "id": 1320,
+                "restaurentName": "Eaters Park Restro Cafe",
+                "phoneNumber": "7675939407",
+                "address": "Hotel Kailash,Gandhi Nagar",
+                "minimumPrice": 50,
+                "status": "Active",
+                "offer": "0",
+                "deliveryTime": "45 Minutes",
+                "restaurantType": "Restaurant",
+                "openTime": "12:00 pm",
+                "closeTime": "10:00 pm",
+                "review": 4,
+                "salexRestaurentAttachements": [
+                    {
+                        "id": 7,
+                        "url": "https://2.bp.blogspot.com/-y8v0K7A2cwg/V_Dr5K8TzJI/AAAAAAAAAKs/FiM7fUzFvEAselpw3dEreR7Gme9WrqlUgCLcB/s1600/Chicken%2BBiryani%2Bcopy.png"
+                    }
+                ]
+            },
+            {
+                "id": 2868,
+                "restaurentName": "Royal Biryani",
+                "phoneNumber": "7205523456",
+                "address": "OMP Road",
+                "minimumPrice": 50,
+                "status": "Active",
+                "offer": "0",
+                "deliveryTime": "45 Minutes",
+                "restaurantType": "Restaurant",
+                "openTime": "11:30 pm",
+                "closeTime": "10:00 pm",
+                "review": 4,
+                "salexRestaurentAttachements": [
+                    {
+                        "id": 12,
+                        "url": "https://res.cloudinary.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/lkn0extnvjywfts4q7gw"
+                    }
+                ]
+            },
+            {
+                "id": 54,
+                "restaurentName": "Jyoti Fast Food",
+                "phoneNumber": "9937490290",
+                "address": "Main Road,Near Dera Street",
+                "minimumPrice": 50,
+                "status": "Active",
+                "offer": "0",
+                "deliveryTime": "45 Minutes",
+                "restaurantType": "Tiffin",
+                "longitude": "83.8080781",
+                "lattitude": "19.0760875",
+                "openTime": "12:00 pm",
+                "closeTime": "10:00 pm",
+                "review": 4,
+                "salexRestaurentAttachements": [
+                    {
+                        "id": 1,
+                        "url": "https://tse1.mm.bing.net/th?id=OIP.Y_sO3w3RCvn6U0q12Sj7QgHaEK&pid=Api&P=0&w=325&h=183"
+                    }
+                ]
+            },
+            {
+                "id": 2436,
+                "restaurentName": "Beatrix Bistro OD 18",
+                "phoneNumber": "9437236363",
+                "address": "Kapilas Road,New Colony,1st Lane",
+                "minimumPrice": 50,
+                "status": "Active",
+                "offer": "0",
+                "deliveryTime": "45 Minutes",
+                "restaurantType": "Cafe",
+                "openTime": "12:00 pm",
+                "closeTime": "10:00 pm",
+                "review": 4,
+                "salexRestaurentAttachements": [
+                    {
+                        "id": 11,
+                        "url": "https://external-preview.redd.it/CnSiRuop4DvWsZhNEqVUCxaR5eW82v39ZDCZla989n0.jpg?auto=webp&s=c3d878d24b929028b27d64f570f29ad7100611fb"
+                    }
+                ]
+            },
+            {
+                "id": 1682,
+                "restaurentName": "Flavours Plaza",
+                "phoneNumber": "9938382277",
+                "address": "Ring Road,Infront Of Swamy Vivekanand School",
+                "minimumPrice": 50,
+                "status": "Active",
+                "offer": "0",
+                "deliveryTime": "45 Minutes",
+                "restaurantType": "Cafe",
+                "openTime": "11:30 am",
+                "closeTime": "10:00 pm",
+                "review": 4,
+                "salexRestaurentAttachements": [
+                    {
+                        "id": 8,
+                        "url": "https://www.bermberm.com/wp-content/uploads/2018/09/Cafe-latte-Berm-Berm-Coffees-768x768.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 918,
+                "restaurentName": "Hotel Annapurna",
+                "phoneNumber": "7008281349",
+                "address": "OMP Road",
+                "minimumPrice": 50,
+                "status": "Active",
+                "offer": "0",
+                "deliveryTime": "45 Minutes",
+                "restaurantType": "Restaurant",
+                "openTime": "12:00 pm",
+                "closeTime": "10:00 pm",
+                "review": 4,
+                "salexRestaurentAttachements": [
+                    {
+                        "id": 6,
+                        "url": "https://tse2.mm.bing.net/th?id=OIP.t3zR-9N1ewbQ77x4QSBQCgHaFj&pid=Api&P=0&w=237&h=178"
+                    },
+                    {
+                        "id": 2,
+                        "url": "https://twincitieskidsclub.com/wp-content/uploads/2020/01/AdobeStock_279757406-scaled.jpeg"
+                    }
+                ]
+            },
+            {
+                "id": 3022,
+                "restaurentName": "Sri Jagannath Sweets (Special For SALEPUR Rasgulla)",
+                "phoneNumber": "8598891653",
+                "address": "JJ Hostel",
+                "minimumPrice": 50,
+                "status": "Active",
+                "offer": "0",
+                "deliveryTime": "45 Minutes",
+                "restaurantType": "Sweets",
+                "openTime": "10:00 am",
+                "closeTime": "10:00 pm",
+                "review": 4,
+                "salexRestaurentAttachements": [
+                    {
+                        "id": 13,
+                        "url": "https://tse1.mm.bing.net/th?id=OIP.l6--uguOrKWvC57zydG_3gHaE8&pid=Api&P=0&w=287&h=191"
+                    }
+                ]
+            },
+            {
+                "id": 2298,
+                "restaurentName": "DFC",
+                "phoneNumber": "8637294437",
+                "address": "Gandhi Nagar Main Road",
+                "minimumPrice": 50,
+                "status": "Active",
+                "offer": "0",
+                "deliveryTime": "45 Minutes",
+                "restaurantType": "Restaurant",
+                "openTime": "11:00 am",
+                "closeTime": "10:00 pm",
+                "review": 4,
+                "salexRestaurentAttachements": [
+                    {
+                        "id": 10,
+                        "url": "https://tse4.mm.bing.net/th?id=OIP.wNkNfznz1FbckLYIlfN4-wHaHa&pid=Api&P=0&w=173&h=173"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "restaurentName": "Time To Toast",
+                "phoneNumber": "6371186638",
+                "address": "JJ Square",
+                "minimumPrice": 50,
+                "status": "Active",
+                "offer": "0",
+                "deliveryTime": "45 Minutes",
+                "restaurantType": "Restaurant",
+                "longitude": "83.8129375",
+                "lattitude": "19.0711875",
+                "openTime": "11:00 am",
+                "closeTime": "09:30 pm",
+                "review": 3,
+                "salexRestaurentAttachements": [
+                    {
+                        "id": 3,
+                        "url": "https://tse2.mm.bing.net/th?id=OIP.n2Sil_Dt6YaklMYLdDq8cwHaE8&pid=Api&P=0&w=287&h=191"
+                    }
+                ]
+            },
+            {
+                "id": 3350,
+                "restaurentName": "DFC123",
+                "phoneNumber": "44433",
+                "address": "Gnpr",
+                "status": "Active",
+                "offer": "0",
+                "restaurantType": "Cafe",
+                "longitude": "1233",
+                "lattitude": "3133",
+                "closeTime": "",
+                "review": 4,
+                "salexRestaurentAttachements": [
+                    {
+                        "id": 3351,
+                        "url": "https://tse4.mm.bing.net/th?id=OIP._S0wI_iVONUVQx9fxK7IAQHaF3&pid=Api&P=0"
+                    }
+                ]
+            },
+            {
+                "id": 3363,
+                "restaurentName": "Dawat",
+                "phoneNumber": "9876567688",
+                "address": "Near By Pass, Gunupur",
+                "minimumPrice": 50,
+                "status": "Active",
+                "offer": "0",
+                "deliveryTime": "45 Minutes",
+                "restaurantType": "Restaurant",
+                "longitude": "83.3388608",
+                "lattitude": "17.7365837",
+                "openTime": "12:00 pm",
+                "closeTime": "",
+                "review": 4,
+                "salexRestaurentAttachements": [
+                    {
+                        "id": 3364,
+                        "url": "https://tse4.mm.bing.net/th?id=OIP.PGflPWglidy4zgLdOsHiDAHaEo&pid=Api&P=0"
+                    }
+                ]
+            },
+            {
+                "id": 2084,
+                "restaurentName": "Om Sai Ram Restaurant",
+                "phoneNumber": "7205815815",
+                "address": "Sai Priya Nagar, Opp:Reliance Petrol Pump",
+                "minimumPrice": 50,
+                "status": "Active",
+                "offer": "0",
+                "deliveryTime": "45 Minutes",
+                "restaurantType": "Restaurant",
+                "openTime": "11:30 am",
+                "closeTime": "10:00 pm",
+                "review": 4,
+                "salexRestaurentAttachements": [
+                    {
+                        "id": 9,
+                        "url": "https://s4.scoopwhoop.com/ada/assorted/beary.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 3709,
+                "restaurentName": "Grocery and Home Needs",
+                "phoneNumber": "9437261970",
+                "address": "Gunupur",
+                "minimumPrice": 50,
+                "status": "Active",
+                "offer": "0",
+                "deliveryTime": "45 Minutes",
+                "restaurantType": "Grocery",
+                "longitude": "19.0682125",
+                "lattitude": "83.8167031",
+                "openTime": "10:00 am ",
+                "closeTime": "10:00 pm",
+                "review": 4,
+                "salexRestaurentAttachements": [
+                    {
+                        "id": 3710,
+                        "url": "https://1.bp.blogspot.com/-gHNVuqBw-Gw/XqmHt9JQ_eI/AAAAAAAAAFA/zEQf_LrIv6M2AyDSQOT_jX2fs2HQJsQgwCPcBGAYYCw/s640/grocery%2Bitems.png"
+                    }
+                ]
+            }
+        ]
+    },
+    "message": "Restaurent List"
+}
