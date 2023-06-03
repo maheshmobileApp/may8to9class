@@ -1,0 +1,37 @@
+
+
+
+
+REQUEST:
+
+Step 1: Create Base url + end point 
+Step 2:set  Method type 
+Step 3: create body or parameters 
+step 4: set the authorization
+step 5: set the headders
+
+
+RESPONSE:
+handle the response 
+ step 1: check the error Code
+ step 2: if you get status code is 200 series parse the response to model class 
+step3: if you get status code is 400.. or 500 display the error messsage 
+200....
+400...
+500....
+
+
+
+Step 1: https://jsonplaceholder.typicode.com/posts
+step 2: GET 
+step 3: none 
+step  4: none 
+step 5: none 
+
+http or dio 
+
+
+Instal dio or http package:
+
+s1: go to pub.dev and serach for dio or http
+s2: install the package 
