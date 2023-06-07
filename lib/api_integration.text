@@ -22,7 +22,7 @@ step3: if you get status code is 400.. or 500 display the error messsage
 
 
 
-Step 1: https://jsonplaceholder.typicode.com/posts
+Step 1: https://doctopad-a2d-dev.el.r.appspot.com/api/v1/hospitals
 step 2: GET 
 step 3: none 
 step  4: none 
@@ -35,3 +35,16 @@ Instal dio or http package:
 
 s1: go to pub.dev and serach for dio or http
 s2: install the package 
+
+
+//call the api get the data from server and display the data in Listview
+
+step 1: create base url and end point 
+
+ final url = "https://doctopad-a2d-dev.el.r.appspot.com/api/v1/hospitals"
+
+step 2: using dio packge call the app with url
+
+final resonse = await dio.get(url);
+
+
