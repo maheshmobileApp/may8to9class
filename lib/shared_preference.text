@@ -1,0 +1,19 @@
+
+final SharedPreferences prefs = await SharedPreferences.getInstance();
+
+//Write
+
+prefs.write(key,value)
+
+
+//Read
+
+prefs.get(key)
+
+
+
+//update
+
+
+
+//Remove

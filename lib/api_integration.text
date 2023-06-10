@@ -48,3 +48,13 @@ step 2: using dio packge call the app with url
 final resonse = await dio.get(url);
 
 
+POST:
+
+Step 1: https://doctopad-a2d-dev.el.r.appspot.com/api/v1/doctor_specialities
+step 2: POST 
+step 3: {
+  "created_by": "",
+  "speciality_name": "dentist"
+} 
+step  4: none 
+step 5: none 

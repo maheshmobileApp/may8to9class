@@ -1,5 +1,6 @@
 import 'package:class8to9/apiClass/hospitalList.dart';
 import 'package:class8to9/counterApp.dart';
+import 'package:class8to9/create_specilities.dart';
 import 'package:class8to9/firstscreen.dart';
 import 'package:class8to9/listview.dart';
 import 'package:class8to9/load_json_to_ListView.dart';
@@ -23,7 +24,7 @@ stateless widgets
 
 void main() {
   runApp(MaterialApp(
-    initialRoute: "/hospitalList",
+    initialRoute: "/createSpecility",
     routes: {
       "/first": (context) => FirstScreen(),
       "/second": (context) => SecondScreen(),
@@ -31,7 +32,8 @@ void main() {
       "/signup": (context) => SignUpScreen(),
       "/listViewDemo": (context) => ListViewDemo(),
       "/jsonToListView": (context) => LoadJsonToListView(),
-      "/hospitalList": (context) => HospitalList()
+      "/hospitalList": (context) => HospitalList(),
+      "/createSpecility": (context) => CreateSpecilities()
     },
     // "/"
     // home: CounterApp()
