@@ -1,6 +1,7 @@
 import 'package:class8to9/apiClass/hospitalList.dart';
 import 'package:class8to9/counterApp.dart';
 import 'package:class8to9/create_specilities.dart';
+import 'package:class8to9/figma_file_login_screen.dart';
 import 'package:class8to9/firstscreen.dart';
 import 'package:class8to9/listview.dart';
 import 'package:class8to9/load_json_to_ListView.dart';
@@ -24,7 +25,7 @@ stateless widgets
 
 void main() {
   runApp(MaterialApp(
-    initialRoute: "/createSpecility",
+    initialRoute: "/figmaDesign",
     routes: {
       "/first": (context) => FirstScreen(),
       "/second": (context) => SecondScreen(),
@@ -33,7 +34,8 @@ void main() {
       "/listViewDemo": (context) => ListViewDemo(),
       "/jsonToListView": (context) => LoadJsonToListView(),
       "/hospitalList": (context) => HospitalList(),
-      "/createSpecility": (context) => CreateSpecilities()
+      "/createSpecility": (context) => CreateSpecilities(),
+      "/figmaDesign":(context) => FigmaSampleLoginScreen()
     },
     // "/"
     // home: CounterApp()

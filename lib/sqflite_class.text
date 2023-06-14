@@ -1,0 +1,25 @@
+Sqflite for data saving in mobile 
+
+CRUD
+Create
+Read
+Update 
+Delete
+
+
+//get the path for save the db file
+
+//create table into the db file
+
+
+User
+
+
+Name 
+number 
+phone 
+email 
+
+CREATE TABLE 
+
+Create table user (name Text, email Text, phone Text, number Text)
