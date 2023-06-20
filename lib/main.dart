@@ -1,4 +1,5 @@
 import 'package:class8to9/apiClass/hospitalList.dart';
+import 'package:class8to9/apiClass/routes_constants.dart';
 import 'package:class8to9/counterApp.dart';
 import 'package:class8to9/create_specilities.dart';
 import 'package:class8to9/figma_file_login_screen.dart';
@@ -7,6 +8,7 @@ import 'package:class8to9/listview.dart';
 import 'package:class8to9/load_json_to_ListView.dart';
 import 'package:class8to9/secondscreen.dart';
 import 'package:class8to9/signup_screen.dart';
+import 'package:class8to9/sqflite_example.dart';
 import 'package:flutter/material.dart';
 
 import 'login_screen.dart';
@@ -25,7 +27,7 @@ stateless widgets
 
 void main() {
   runApp(MaterialApp(
-    initialRoute: "/figmaDesign",
+    initialRoute: RoutesConstants.sqliteSampleForm,
     routes: {
       "/first": (context) => FirstScreen(),
       "/second": (context) => SecondScreen(),
@@ -35,7 +37,8 @@ void main() {
       "/jsonToListView": (context) => LoadJsonToListView(),
       "/hospitalList": (context) => HospitalList(),
       "/createSpecility": (context) => CreateSpecilities(),
-      "/figmaDesign":(context) => FigmaSampleLoginScreen()
+      "/figmaDesign":(context) => FigmaSampleLoginScreen(),
+      RoutesConstants.sqliteSampleForm:(context) => SqfliteExample()
     },
     // "/"
     // home: CounterApp()

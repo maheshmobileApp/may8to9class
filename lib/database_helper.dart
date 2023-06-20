@@ -18,9 +18,10 @@ class DatabaseHelper {
     final path = join(directory.path, "class8to9.db");
     return await openDatabase(
       path,
+      version: 1,
       onCreate: (db, version) async {
         await db.execute(
-            "Create table user (name Text, email Text, phone Text, number Text)");
+            "Create table user (name Text, email Text, phone Text, address Text)");
       },
     );
   }
