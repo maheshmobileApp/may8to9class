@@ -1,0 +1,57 @@
+
+
+Provider + MVVM
+
+The state in flutter refers to the data stored inside widget that can be modified depending on the current operation
+
+counter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Store the counter value in one variable
+
++  action
+
+- action
+
+diaply in TextWidget 
+
+
+setState(){
+
+}
+
+when setState updated rebuild the build method
+
+
+
+How to implement The counter App using Provider 
+
+Step 1: Install The provider package 
+
+Step 2: Create Stateless widget 
+
+Step 3: Create Provider Class(viewModel) for state 
+
+step 4: Define the state varialbe in provider class 
+
+step 5: implement the action for update the state 
+
+step 6: after update any state variable need to call the notifyListeners(); method . this will inform to widget to rebuild 
+
+step 7: set up the provider in main.dart 
+
+
+
+

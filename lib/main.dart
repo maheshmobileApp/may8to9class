@@ -1,6 +1,8 @@
 import 'package:class8to9/apiClass/hospitalList.dart';
 import 'package:class8to9/apiClass/routes_constants.dart';
 import 'package:class8to9/counterApp.dart';
+import 'package:class8to9/counter_app/counter_provider_app.dart';
+import 'package:class8to9/counter_app/counter_viewModel.dart';
 import 'package:class8to9/create_specilities.dart';
 import 'package:class8to9/figma_file_login_screen.dart';
 import 'package:class8to9/firstscreen.dart';
@@ -12,7 +14,7 @@ import 'package:class8to9/sqflite_example.dart';
 import 'package:flutter/material.dart';
 
 import 'login_screen.dart';
-
+import 'package:provider/provider.dart';
 /*
 
 starting file is main.dart
@@ -26,22 +28,30 @@ stateless widgets
  */
 
 void main() {
-  runApp(MaterialApp(
-    initialRoute: RoutesConstants.sqliteSampleForm,
-    routes: {
-      "/first": (context) => FirstScreen(),
-      "/second": (context) => SecondScreen(),
-      "/login": (context) => LoginScreen(),
-      "/signup": (context) => SignUpScreen(),
-      "/listViewDemo": (context) => ListViewDemo(),
-      "/jsonToListView": (context) => LoadJsonToListView(),
-      "/hospitalList": (context) => HospitalList(),
-      "/createSpecility": (context) => CreateSpecilities(),
-      "/figmaDesign":(context) => FigmaSampleLoginScreen(),
-      RoutesConstants.sqliteSampleForm:(context) => SqfliteExample()
-    },
-    // "/"
-    // home: CounterApp()
+  runApp(MultiProvider(
+    providers: [
+      ChangeNotifierProvider(
+        create: (context) => CounterProvider(),
+      )
+    ],
+    child: MaterialApp(
+      initialRoute: "/counterAppWithProvider",
+      routes: {
+        "/first": (context) => FirstScreen(),
+        "/second": (context) => SecondScreen(),
+        "/login": (context) => LoginScreen(),
+        "/signup": (context) => SignUpScreen(),
+        "/listViewDemo": (context) => ListViewDemo(),
+        "/jsonToListView": (context) => LoadJsonToListView(),
+        "/hospitalList": (context) => HospitalList(),
+        "/createSpecility": (context) => CreateSpecilities(),
+        "/figmaDesign": (context) => FigmaSampleLoginScreen(),
+        "/counterAppWithProvider": (context) => CounterAppWithPrvider(),
+        RoutesConstants.sqliteSampleForm: (context) => SqfliteExample()
+      },
+      // "/"
+      // home: CounterApp()
+    ),
   ));
 }
 
