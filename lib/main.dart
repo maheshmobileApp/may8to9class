@@ -8,6 +8,8 @@ import 'package:class8to9/figma_file_login_screen.dart';
 import 'package:class8to9/firstscreen.dart';
 import 'package:class8to9/listview.dart';
 import 'package:class8to9/load_json_to_ListView.dart';
+import 'package:class8to9/provider_with_api_call/hospital_view.dart';
+import 'package:class8to9/provider_with_api_call/hospital_viewModel.dart';
 import 'package:class8to9/secondscreen.dart';
 import 'package:class8to9/signup_screen.dart';
 import 'package:class8to9/sqflite_example.dart';
@@ -32,10 +34,13 @@ void main() {
     providers: [
       ChangeNotifierProvider(
         create: (context) => CounterProvider(),
+      ),
+      ChangeNotifierProvider(
+        create: (context) => HospitalProvider(),
       )
     ],
     child: MaterialApp(
-      initialRoute: "/counterAppWithProvider",
+      initialRoute: "/apiWithProvider",
       routes: {
         "/first": (context) => FirstScreen(),
         "/second": (context) => SecondScreen(),
@@ -47,6 +52,7 @@ void main() {
         "/createSpecility": (context) => CreateSpecilities(),
         "/figmaDesign": (context) => FigmaSampleLoginScreen(),
         "/counterAppWithProvider": (context) => CounterAppWithPrvider(),
+        "/apiWithProvider": (context) => HospitalsListView(),
         RoutesConstants.sqliteSampleForm: (context) => SqfliteExample()
       },
       // "/"
